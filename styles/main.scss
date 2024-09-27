@@ -1,4 +1,4 @@
-@use "partials/colors"
+@use "partials/colors";
 
 * {
     box-sizing: border-box;
@@ -53,7 +53,7 @@
 }
 /* main page sections */
 .homeheader {
-    color: #d19046;
+    color: $secondary-font-color;
     font-family: "dancing script";
     font-size: 55px;
 }
@@ -106,7 +106,7 @@ article {
     
 }
 .homelink {
-    color: #d19046;
+    color: $secondary-font-color;
     font-family: "montserrat", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
