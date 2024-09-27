@@ -435,4 +435,31 @@ article {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+/* footer bar */
+.bottomfooter {
+  background-color: #414141;
+  padding: 25px 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footertext {
+  color: #ffffff;
+  font-family: "ubuntu";
+  font-weight: 300;
+  font-size: 16px;
+  flex: 1;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
