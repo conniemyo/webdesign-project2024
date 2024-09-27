@@ -20,13 +20,11 @@
   padding: 15px;
   display: inline-block;
 }
-
 .homenavbar ul {
   list-style-type: none;
   overflow: hidden;
 }
-
-.homenavbar li {
+.homenavbar ul li {
   padding: 10px;
   float: left;
 }

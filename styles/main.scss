@@ -16,14 +16,14 @@
 .homenavbar {
     padding: 15px;
     display: inline-block;
-}
-.homenavbar ul{
-    list-style-type: none;
-    overflow: hidden; 
-}
-.homenavbar li{
-    padding: 10px;
-    float: left;
+    ul {
+        list-style-type: none;
+        overflow: hidden; 
+        li {
+            padding: 10px;
+            float: left;
+        }
+    }
 }
 .navtext1 {
     color: #ffffff;
