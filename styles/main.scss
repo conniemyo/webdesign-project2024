@@ -8,7 +8,7 @@
 }
 /* header bar */
 .topheader {
-    background-color: #150300;
+    background-color: colors.$darker-background;
 }
 .navcontainer {
     display: flex;
@@ -97,7 +97,7 @@ article {
     text-transform: uppercase;
 }
 .homeintro {
-    color: #575757;
+    color: colors.$primary-font-color;
     font-family: "ubuntu";
     font-weight: 200;
     font-size: 30px;
