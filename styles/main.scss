@@ -1,5 +1,7 @@
 @use "vendor/normalize";
 @use "partials/colors";
+@use "partials/mixins";
+@use "partials/typography";
 
 * {
     box-sizing: border-box;
