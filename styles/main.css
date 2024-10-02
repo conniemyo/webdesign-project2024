@@ -314,7 +314,7 @@ template {
   margin: 0;
 }
 
-/* header bar */
+/* index.html header bar */
 .topheader {
   background-color: #150300;
 }
@@ -366,7 +366,7 @@ template {
   text-underline-offset: 3px;
 }
 
-/* main page sections */
+/* index.html main page sections */
 .homeheader {
   color: #DB8D33;
   font-family: "dancing script";
@@ -437,7 +437,7 @@ article {
   font-size: 20px;
 }
 
-/* footer bar */
+/* index.html footer bar */
 .bottomfooter {
   background-color: #414141;
   padding: 25px 50px;

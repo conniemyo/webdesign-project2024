@@ -8,7 +8,7 @@
     padding: 0;
     margin: 0;
 }
-/* header bar */
+/* index.html header bar */
 .topheader {
     background-color: colors.$darker-background;
 }
@@ -54,7 +54,7 @@
     text-decoration-thickness: .5px;
     text-underline-offset: 3px;
 }
-/* main page sections */
+/* index.html main page sections */
 .homeheader {
     color: colors.$secondary-font-color;
     font-family: "dancing script";
@@ -115,7 +115,7 @@ article {
     text-transform: uppercase;
     font-size: 20px;
 }
-/* footer bar */
+/* index.html footer bar */
 .bottomfooter {
     background-color: colors.$dark-background; 
     padding: 25px 50px; 
