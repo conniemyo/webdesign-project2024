@@ -6,6 +6,8 @@
     font-size: 65px;
     font-family: typography.$secondary-font;
     font-weight: 300;
+    margin-bottom: 0px;
+    line-height: .75;
 }
 @mixin main-link() {
     color: colors.$secondary-font-color;
@@ -20,6 +22,16 @@
     font-family: typography.$header-font;
     font-size: 55px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+@mixin menu-subhead() {
+    color: #000000;
+    font-family: typography.$primary-font;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 @mixin primary-paragraph() {

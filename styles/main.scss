@@ -133,7 +133,7 @@ section {
         @include mixins.script-heading();
     }
     h3 {
-        @include mixins.sub-heading();
+        @include mixins.menu-subhead();
     }
     p {
         @include mixins.primary-paragraph();
