@@ -1,4 +1,33 @@
+@use "./typography";
+@use "./colors";
+
 @mixin script-heading() {
     color: colors.$secondary-font-color;
-    font-size: 50px;
+    font-size: 65px;
+    font-family: typography.$secondary-font;
+    font-weight: 300;
+}
+@mixin main-link() {
+    color: colors.$secondary-font-color;
+    font-family: typography.$primary-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+@mixin sub-heading() {
+    color: #000000;
+    font-family: typography.$header-font;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+@mixin primary-paragraph() {
+    color: colors.$primary-font-color;
+    font-family: typography.$primary-font;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 40px;
 }
